@@ -33,11 +33,11 @@ rm -rf vamps
 
 var captain;
 
-captain = 'Jack'
+captain = 'Jack';
 
 2. 
 
-var phrase = 'Oh ' + captain + ', my ' + captain + "!"
+var phrase = 'Oh ' + captain + ', my ' + captain + "!";
 
 // JS conditionals 
 
@@ -47,10 +47,22 @@ var souls = 3;
 var lifeRafts = 2;
 
 if (souls > lifeRafts) {
-	console.log ("SOS")
+	console.log ("SOS");
 }
 
 // Data Structures - JS Arrays
+
+var weekend = ['Saturday'];
+
+weekend.push('Sunday');
+
+weekend.unshift('Friday');
+
+var day = weekend[1];
+
+weekend.shift();
+
+
 
 
 
