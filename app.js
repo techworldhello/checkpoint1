@@ -80,13 +80,13 @@ brain.dayDream = {
 brain.dayDream.lunch.push('pudding');
 
 
+// JS Functions
 
+function areaOfRect(height, width) {
+	return height * width;
+}
 
-
-
-
-
-
+var result = areaOfRect(3, 4);
 
 
 

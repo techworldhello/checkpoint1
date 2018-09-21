@@ -5,24 +5,34 @@
 #### Assume your present working directory is `$ ~/buffy`
 
 1. Make two directories inside `~/buffy`: `scoobies` and `vamps`
-<br><br><br>
+
+pwd
+mkdir scoobies vamps
 
 2. Make files in `scoobies` named `buffy.txt`, `giles.txt` and `angel.txt`
-<br><br><br>
+
+cd scoobies 
+touch buffy.txt giles.txt angle.txt
 
 3. Copy `angel.txt` into the `vamps` directory
-<br><br>
+
+pwd // assume I'm in scoobies directory
+cp angle.txt ~/wdi17/checkpoint/checkpoint1/vamps/
+
 
 4. Delete the `vamps` directory and everything inside it
-<br><br>
+
+cd ..
+rm -rf vamps 
 
 ### JS Variables
-
+(pls see JS file)
 1. Assign the string "Jack" to a variable called `captain`
-<br><br>
+
+
 
 2. Using the `captain` variable, use string concatenation to form the string "Oh Jack, my Jack!", assigning it to a variable named `phrase`
-<br><br>
+
 
 
 ### JS Conditionals
